@@ -4,29 +4,27 @@
   <title>Deep Link Test</title>
 </head>
 
-<body style="text-align:center; margin-top:100px; font-family:sans-serif;">
+<body style="text-align:center;margin-top:100px;font-family:sans-serif;">
 
-<h1>Music Deep Link Test</h1>
+<h1>App Deep Link Test</h1>
 
-<button onclick="openSpotify()" style="padding:15px 25px;font-size:18px;">
-Open Spotify Song
-</button>
+<br>
+
+<a href="spotify:track:0VjIjW4GlUZAMYd2vXMi3b">
+  Open Song in Spotify
+</a>
 
 <br><br>
 
-<button onclick="openAppleMusic()" style="padding:15px 25px;font-size:18px;">
-Open Apple Music Song
-</button>
+<a href="music://music.apple.com/us/album/blinding-lights/1499378108?i=1499378117">
+  Open Song in Apple Music
+</a>
 
-<script>
-function openSpotify() {
-  window.location.href = "spotify:track:0VjIjW4GlUZAMYd2vXMi3b";
-}
+<br><br>
 
-function openAppleMusic() {
-  window.location.href = "music://music.apple.com/us/album/blinding-lights/1499378108?i=1499378117";
-}
-</script>
+<a href="vnd.youtube://dQw4w9WgXcQ">
+  Open Video in YouTube
+</a>
 
 </body>
 </html>
